@@ -1,0 +1,68 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/178382569/photo/the-sunset-in-different-hues-of-purple.jpg?s=612x612&w=0&k=20&c=08pfac_QBYeUR6ErSjLGEjBbkEc6Nl2MOk-FKQlyj9Y=");
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: light;
+    height: 100vh;
+    margin: 0;
+    max-width: 90%;
+}
+
+.heading-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+.content {
+    color: white;
+    margin: 300px auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    margin: 0 auto;
+}
+
+button {
+    background-color: #DC143C;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 8px;
+}
+
+button:hover {
+    color: grey;
+}
+
+#start-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
